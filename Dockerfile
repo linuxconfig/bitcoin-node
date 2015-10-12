@@ -2,8 +2,6 @@ FROM debian:8
 
 MAINTAINER Lubos Rendek <web@linuxconfig.org>
 
-RUN echo 'Acquire::http { Proxy "http://10.1.1.11:3142"; };' > /etc/apt/apt.conf.d/30proxy
-ADD sources.list /etc/apt/
 RUN apt-get update
 RUN apt-get install -y wget
 

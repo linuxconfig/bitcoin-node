@@ -1,0 +1,3 @@
+deb http://debian.mirror.uber.com.au/debian jessie main
+deb http://debian.mirror.uber.com.au/debian jessie-updates main
+deb http://security.debian.org jessie/updates main
